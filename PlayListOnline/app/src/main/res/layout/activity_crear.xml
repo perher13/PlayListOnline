@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrearActivity">
+
+    <TextView
+        android:id="@+id/text1_crear"
+        android:layout_width="185dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/text1_crear"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text2_crear"
+        android:layout_width="67dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="330dp"
+        android:text="Titulo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1_crear" />
+
+    <TextView
+        android:id="@+id/text3_crear"
+        android:layout_width="67dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="330dp"
+        android:text="@string/text3_crear"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caja1_crear" />
+
+    <EditText
+        android:id="@+id/caja1_crear"
+        android:layout_width="369dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="@string/caja1_crear"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text2_crear" />
+
+    <EditText
+        android:id="@+id/caja2_crear"
+        android:layout_width="367dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="@string/caja2_crear"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.318"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text3_crear" />
+
+    <Button
+        android:id="@+id/boton1_crear"
+        android:layout_width="327dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="132dp"
+        android:text="@string/boton1_crear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/boton2_crear"
+        android:layout_width="327dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="56dp"
+        android:text="@string/boton2_crear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.861"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

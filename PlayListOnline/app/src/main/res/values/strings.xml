@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">PlayListOnline</string>
+    <string name="boton1_menu">Salir</string>
+
+    <string name="text1_start">PlayList Online</string>
+    <string name="label1_start">Corto</string>
+
+    <string name="text1_Repro">Reproductor Audio</string>
+    <string name="text2_Repro">Titulo: </string>
+    <string name="boton1_Repro">Volver</string>
+    <string name="label1_Repro">Imposible reproducir el audio</string>
+
+    <string name="text1_crear">Añadir Audio Online</string>
+    <string name="text2_crear">Titulo</string>
+    <string name="text3_crear">URL Video</string>
+    <string name="caja1_crear">Introduce el titulo del audio</string>
+    <string name="caja2_crear">Introduce URL Video</string>
+    <string name="boton1_crear">CREAR AUDIO</string>
+    <string name="boton2_crear">Volver</string>
+    <string name="label1_crear">Todos los campos son obligatorios</string>
+    <string name="label2_crear">Audio creado correctamente</string>
+
+
+
+
+
+
+</resources>
